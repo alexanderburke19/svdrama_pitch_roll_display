@@ -1,0 +1,13 @@
+.sailboat-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.sailboat {
+    width: 100px;
+    height: 200px;
+    background-color: #3498db;
+    transform-origin: bottom center;
+    /* Updated for smoother transitions */
+    transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1);
+}
